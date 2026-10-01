@@ -1,0 +1,129 @@
+body{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    background-color: #1C1C1C;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    margin: 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#1F2937;
+    border: 2px solid gray;
+    border-radius: 10px;
+    position: relative;
+   
+}
+body.light .container{
+    background-color:#ECFDF5;
+}
+@font-face {
+    font-family: Myfont;
+    src: url("fonts/Poppins-Bold.ttf");
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+#greenH1{
+    color: #10B981;
+    margin-top: -10px;
+}
+p{
+    width: 372px;
+    height: 28px;
+    color:#D5D4D8;
+    font-size: 15px;
+    font-family: "inter",sans-serif;
+    font-weight: 400;
+    letter-spacing: 5%;
+    margin-top: 5px;
+    
+    
+    
+}
+body.light p{
+   color: #6B7280;
+}
+.heading{
+    
+    font-family: Myfont,sans-serif;
+    color:#FFFFFF;
+    margin-bottom: 50px;
+    
+}
+body.light .heading{
+    color: #111827;
+}
+.btn{
+    width: 191px;
+    height: 42px;
+    font-family: "inter",sans-serif;
+    background-color: #10B981;
+    color: #FFFFFF;
+    padding: auto;
+    border: 2px solid #10B981;
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 5px;
+}
+#mode-btn{
+    width: 80px;
+    height: 30px;
+    background-color: #10B981;
+    color:floralwhite;
+    font-family: "inter",sans-serif;
+    font-size: small;
+    padding: 4px 4px;
+    border: 2px solid#10B981 ;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    right:15px    
+}
+.btn:hover{
+    background-color:#059669;
+}
+#mode-btn:hover{
+    background-color:#059669;
+}
+.txt-and-btn{
+    
+    margin-left: 15px;
+}
+.line{
+    width: 430px;
+    height: 0px;
+    border:1px solid #2F3E53;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.pass{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pass-space{
+    width: 211px;
+    height: 39px;
+    margin: 6px;
+    background-color: #273549;
+    border-radius: 6px;
+    color: #55F991;
+    font-family: "inter",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

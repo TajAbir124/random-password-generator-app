@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body >
+        
+        <div class="container">
+                <button id="mode-btn" onclick="changeTheme()">☀️ Light</button> 
+                <div class="txt-and-btn"> 
+                    <div class="heading">
+                        <h1>Generate a </h1>
+                        <h1 id="greenH1">random password</h1>
+                        <p>Never use an insecure password again.</p>
+                    </div>
+                
+                    <button  class="btn" onclick="generatePass()">Generate passwords</button>
+                    <div class="line"></div>
+                    <div class="pass">
+                        <div class="pass-space" id="pass-space-1"></div>
+                        <div class="pass-space" id="pass-space-2"></div>
+                    </div>
+                </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
